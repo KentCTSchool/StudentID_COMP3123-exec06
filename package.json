@@ -1,0 +1,30 @@
+{
+  "name": "week06-mongodb-notes-app",
+  "version": "1.0.0",
+  "description": "Week06 Exercise as note taking application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "expressJS",
+    "nodeJS",
+    "week06",
+    "API",
+    "mongoDB",
+    "REST",
+    "mongoose",
+    "notes"
+  ],
+  "author": "Kent Pedrocha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
